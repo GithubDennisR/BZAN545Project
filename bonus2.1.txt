@@ -1,0 +1,29 @@
+Question 1:
+How often are you going meet?
+2 times a week after class Tuesday and Thursday 3:45 - 4:45
+
+Question 2:
+Which and communication technology are you going to use?
+Discord/Groupme for communciation, we also have eachother phone numbers to quickly message and call group members
+We plan on using Python, Github, VsCode, SQL. Everything necessary to complete the group assignment
+
+Question 3:
+Who is going to complete which tasks?
+I feel as though we will each section off tasks as they come along. To be more specific we want to figure out what out best abbilities are (aka python or SQL) and assigning them that way.
+
+Question 4:
+What are the expected completion dates of each task?
+Finish each task well before the due date at least 3 to 4 days before. We want to make certain that we are doing things before they are due.
+
+Question 5:
+Who's going to be the repo owner?
+Dennis Ross is the current repo owner
+
+Question 6:
+What is your process to accomplish tasks and review code?
+Use GitHub commit messages to ensure that we are doing things in a timely manner and correct. Also make sure we send messages to eachother of what we are doing and completing.
+
+Question 7:
+How are you going to hold each member accountable to stay on top of their tasks?
+We are certain that each of us are accountable however there will be task timelines we must meet. IF need be we will contact someone who is doing something wrong or not doing it right.
+ 
