@@ -4,12 +4,12 @@ How often are you going meet?
 
 Question 2:
 Which and communication technology are you going to use?
-Discord/Groupme for communciation, we also have eachother phone numbers to quickly message and call group members
+Discord/Groupme for communication, we also have each other phone numbers to quickly message and call group members
 We plan on using Python, Github, VsCode, SQL. Everything necessary to complete the group assignment
 
 Question 3:
 Who is going to complete which tasks?
-I feel as though we will each section off tasks as they come along. To be more specific we want to figure out what out best abbilities are (aka python or SQL) and assigning them that way.
+I feel as though we will each section off tasks as they come along. To be more specific we want to figure out what out best abilities are (aka python or SQL) and assigning them that way.
 
 Question 4:
 What are the expected completion dates of each task?
@@ -21,7 +21,7 @@ Dennis Ross is the current repo owner
 
 Question 6:
 What is your process to accomplish tasks and review code?
-Use GitHub commit messages to ensure that we are doing things in a timely manner and correct. Also make sure we send messages to eachother of what we are doing and completing.
+Use GitHub commit messages to ensure that we are doing things in a timely manner and correct. Also make sure we send messages to each other of what we are doing and completing.
 
 Question 7:
 How are you going to hold each member accountable to stay on top of their tasks?
