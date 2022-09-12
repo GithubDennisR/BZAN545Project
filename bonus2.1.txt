@@ -13,7 +13,7 @@ I feel as though we will each section off tasks as they come along. To be more s
 
 Question 4:
 What are the expected completion dates of each task?
-Finish each task well before the due date at least 3 to 4 days before. We want to make certain that we are doing things before they are due.
+Finish each task before the due date at least 3 to 4 days before. We want to make certain that we are doing things before they are due.
 
 Question 5:
 Who's going to be the repo owner?
