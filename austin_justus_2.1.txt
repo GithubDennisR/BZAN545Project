@@ -1,0 +1,47 @@
+Meet with your team to discuss the details of how you are going to approach the group assignment. 
+The more details you provide the higher the chance of getting credit for this bonus assignment. 
+
+Question 1:
+How often are you going to meet?
+Answer: 2 times a week after class Tuesday and Thursday 3:45 - 4:45.
+
+Question 2:
+Which tools and communication technology are you going to use?
+Answer: Discord/Groupme for communciation, we also have eachother's phone numbers to quickly message and call group members.
+We plan on using Python, Github, VsCode, SQL. Everything necessary to complete the group assignment.
+
+Question 3:
+Who is going to complete which tasks?
+Answer: I feel as though we will each section off tasks as they come along. To be more specific, we want to figure out what our best abilities are
+(aka python or SQL) and assign them that way.
+
+Question 4:
+What are the expected completion dates of each task?
+Answer: Finish each task well before the due date at least 3 to 4 days before. We want to make certain that we are doing things before they are due.
+
+Question 5:
+Who is going to be the repo owner?
+Answer: Dennis Ross is the current repo owner.
+
+Question 6:
+What is your process to accomplish tasks and review code?
+Answer: Use GitHub commit messages to ensure that we are doing things in a timely manner and correct. Also make sure we send messages to eachother of what we are doing and completing.
+
+Question 7:
+How are you going to hold each team member accountable to stay on top of their tasks?
+Answer: We are certain that each of us are accountable however there will be task timelines we must meet.
+If need be we will contact someone who is doing something wrong or not doing it right.
+
+Question 7:
+Set up the assignment repo per the assignment document and invite all members and ballingsclass.
+Clone the repo to your disk.
+Copy the file from your firstname_lastname repo, to your assignment folder.
+Using commands everyone should push this file with their answers to the assignment repo after creating a branch 
+called plan_lastname, and do a pull request, wich the repo owner will execute.
+We will check the repo to see if everything if this is done correctly.
+Don't forget to also push to your firstname_lastname repo and do a pull request.
+
+
+
+
+
