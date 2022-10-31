@@ -1,0 +1,1 @@
+Meeting Summary1. Wrote out force script for data if a day is missed in the task scheduler2. Got everything set up properly with the task scheduler/CRON3. Wrote the code to push data to postgres sql database4. Created presentation for class to show progress
