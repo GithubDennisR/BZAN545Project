@@ -5,6 +5,7 @@ from dash import Dash,html,dcc
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.express as px
+import psycopg2
 
 server = flask.Flask(__name__)
 
@@ -23,8 +24,24 @@ df_bar = pd.DataFrame({
     "Amount": [3, 1, 2, 2, 4, 100],
     "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
 })
-#Pulling from local master file
-df_bar2 = pd.read_csv('C:\\Users\\kensk\\BZAN545Project\\bzan545masterdata.csv') #NEEDS A CHANGE TO IMPORT THE DATA FROM POSTGRES
+#Pulling from Saxon's postgreSQL server
+database = {'user': 'postgres',
+            'pass': 'bzan545saxon',
+            'name': 'postgres',
+            'host': 'localhost',
+            'port': '5432'}
+
+pgConnectString = f"""host={database['host']}
+                      port={database['port']}
+                      dbname={database['name']}
+                      user={database['user']}
+                      password={database['pass']}"""
+
+pgConnection=psycopg2.connect(pgConnectString)
+
+query = "select * from bzan545masterdata;"
+
+df_bar2 = pd.read_sql_query(query, pgConnection)
 
 #Figure creation for example
 fig = px.bar(df_bar, x="Fruit", y="Amount", color="City", barmode="group")
