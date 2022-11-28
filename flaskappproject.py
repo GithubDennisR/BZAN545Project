@@ -24,7 +24,7 @@ df_bar = pd.DataFrame({
     "Amount": [3, 1, 2, 2, 4, 100],
     "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
 })
-#Pulling from Saxon's postgreSQL server
+# Pulling from Saxon's postgreSQL server
 database = {'user': 'postgres',
             'pass': 'bzan545saxon',
             'name': 'postgres',
@@ -37,11 +37,13 @@ pgConnectString = f"""host={database['host']}
                       user={database['user']}
                       password={database['pass']}"""
 
-pgConnection=psycopg2.connect(pgConnectString)
+pgConnection = psycopg2.connect(pgConnectString)
 
 query = "select * from bzan545masterdata;"
 
 df_bar2 = pd.read_sql_query(query, pgConnection)
+
+pgConnection.close()
 
 #Figure creation for example
 fig = px.bar(df_bar, x="Fruit", y="Amount", color="City", barmode="group")
