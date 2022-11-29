@@ -1,0 +1,69 @@
+<style>
+.button {
+        border:  2px solid #58595b;
+        color: #58595b;
+        padding: 10px 20px;
+        text-align: right;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+        
+ .button1 {background-color: white; text-align: right;}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #58595b;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff8200;
+}
+#header {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        padding:5px;
+    }
+</style>
+<body BGCOLOR="#58595b"></body>
+<div id="header">
+    <h1 style="background:#ff8200;padding:20px;border: 4px solid white">
+        <FONT COLOR=white size = "+7">Data Table</FONT>
+    </h1>
+    <div>
+        <a href = "/"><button class="button button1" style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Back Home</button></a>
+    </div>
+
+</div>
+<table BGCOLOR="white">
+    <tr>
+        {% for col in column_names %}
+        <th>{{col}}</th>
+        {% endfor %}
+    </tr>
+    {% for row in row_data %}
+    <tr>
+        {% for col, row_ in zip(column_names, row) %}
+        {% if col == link_column %}
+        <td>
+            <a value={{ row_ }} name="productid">
+                {{ row_ }}
+            </a>
+        </td>
+        {% else %}
+        <td>{{row_}}</td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>
