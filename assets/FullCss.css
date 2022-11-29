@@ -1,11 +1,8 @@
-/*!
- * Materialize v1.0.0-rc.1 (http://materializecss.com)
- * Copyright 2014-2017 Materialize
- * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
- */
+.titlepadding {
+  padding-top: 5px;
+}
 
-
- .custom {
+.custom {
     padding-bottom: 400px;
  }
 
@@ -1961,6 +1958,10 @@
     color: #3e2723 !important;
   }
   
+  .smokey-grey {
+    background-color: #58595B !important;
+  }
+
   .blue-grey {
     background-color: #607d8b !important;
   }
@@ -2169,7 +2170,7 @@
    */
   body {
     margin: 0;
-    /* background: #083c5d; */
+   /* background: #FF8200; */
   }
   
   /**
@@ -4277,7 +4278,7 @@
   
   nav {
     color: #fff;
-    background-color: #328cc1;
+    background-color: #58595B;
     width: 100%;
     height: 56px;
     line-height: 56px;
