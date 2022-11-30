@@ -1,0 +1,4 @@
+4 Meeting Summary
+
+     1. Used CSS for more styling of flask app file.
+     2. Referenced JSON files through dash app in order to push through flask.
