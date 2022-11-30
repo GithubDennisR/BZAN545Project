@@ -1,0 +1,6 @@
+5 Meeting Summary
+
+     1. Created "Average Number of Sales Over Time by Region" interactive dynamic plot for our dashboard.
+     2. Used API callbacks to create interactive parts of the application such as region selection button.
+     3. Created static plot of Average Sales that combines all of the regions for each date.
+     4. Created bar plot for Total Sales for each region.
