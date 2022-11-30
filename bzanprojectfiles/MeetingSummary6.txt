@@ -1,0 +1,6 @@
+6 Meeting Summary
+
+     1. Created rough draft for project presentation on Google Slides.
+     2. Input visually appealing template from google for background, formatting, and styling.
+     3. Created slides describing the processes of our code and the tasks they accomplish with the dataset.
+     4. Created "Task Allocation" slide that details group members' contributions.
