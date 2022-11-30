@@ -1,0 +1,4 @@
+7 Meeting Summary
+
+     1. Finalized Google Slides presentation.
+     2. Added concluding slides with visuals pulled from our dashboard.
