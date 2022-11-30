@@ -1,0 +1,9 @@
+3 Meeting Summary
+
+     1. Creation of flask app utilizing stylesheet from web.
+     2. Used dataframe for app as a test.
+     3. Pulled from Saxon's postgresSQl server
+     4. Created bar chart figures detailing "region" on x-axis and "itemssold" on y-axis.
+     5. Formatting of actual layout of app utilizing html code for buttons, etc.
+     6. Styling of app utilizing CSS.
+     7. Pushed flask app to main on github.
