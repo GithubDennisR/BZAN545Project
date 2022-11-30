@@ -1,0 +1,7 @@
+2 Meeting Summary
+
+     1. Pulled external style sheet from web.
+     2. Utilized style sheet for initial creation of dashboard setup.
+     3. Created example dataframe for dashboard as a test.
+     4. Created bar chart figures for actual dashboard containing "regions" on x-axis and "itemssold" on y-axis.
+     5. Finalized dashboard utilizing dash python script and html.
