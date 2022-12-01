@@ -1,0 +1,60 @@
+Meeting Summary 1, Tuesday 10/11/2022 3:45-4:45
+
+     1. Wrote out force script for data if a day is missed in the task scheduler
+     2. Got everything set up properly with the task scheduler/CRON
+     3. Wrote the code to push data to postgres sql database
+     4. Created presentation for class to show progress
+     
+
+Meeting Summary 2, Tuesday 10/18/2022 3:45-4:45
+
+     1. Pulled external style sheet from web.
+     2. Utilized style sheet for initial creation of dashboard setup.
+     3. Created example dataframe for dashboard as a test.
+     4. Created bar chart figures for actual dashboard containing "regions" on x-axis and "itemssold" on y-axis.
+     5. Finalized dashboard utilizing dash python script and html.
+
+Meeting Summary 3, Tuesday 10/25/2022 3:45-4:45
+
+     1. Creation of flask app utilizing stylesheet from web.
+     2. Used dataframe for app as a test.
+     3. Pulled from Saxon's postgresSQl server
+     4. Created bar chart figures detailing "region" on x-axis and "itemssold" on y-axis.
+     5. Formatting of actual layout of app utilizing html code for buttons, etc.
+     6. Styling of app utilizing CSS.
+     7. Pushed flask app to main on github.
+
+Meeting Summary 4, Tuesday 11/1/2022 3:45-4:45
+
+     1. Used CSS for more styling of flask app file.
+     2. Referenced JSON files through dash app in order to push through flask.
+
+Meeting Summary 5, Tuesday 11/8/2022 3:45-4:45
+
+     1. Created "Average Number of Sales Over Time by Region" interactive dynamic plot for our dashboard.
+     2. Used API callbacks to create interactive parts of the application such as region selection button.
+     3. Created static plot of Average Sales that combines all of the regions for each date.
+     4. Created bar plot for Total Sales for each region.
+
+Meeting Summary 6, Tuesday 11/15/2022 3:45-4:45
+
+     1. Created rough draft for project presentation on Google Slides.
+     2. Input visually appealing template from google for background, formatting, and styling.
+     3. Created slides describing the processes of our code and the tasks they accomplish with the dataset.
+     4. Created "Task Allocation" slide that details group members' contributions.
+
+Meeting Summary 7, Wednesday 11/30/2022 3:45-4:45
+
+     1. Finalized Google Slides presentation.
+     2. Added concluding slides with visuals pulled from our dashboard.
+
+*All tasks completed as a team: Dennis Ross, Dylan Skonicki, Saxon Kidder, Austin Justus.
+
+Deadlines:
+10/11: Extract data + Draft Show & Tell PowerPoint Presentation
+10/18: Create dashboard with plots
+10/25: Create + Style Flask App with buttons by utilizing CSS
+11/1: Present Show & Tell PowerPoint Presentation + CSS + JSON
+11/8: Create interactive plot with button for dashboard + static plots
+11/15: Create Rough Draft Final Presentation
+11/30: Create Finalized Presentation
